@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background-color: #e8f0fe;
+    overflow-x: hidden;
+}
+
+/* contenedor */
+main {
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* header */
+header {
+    text-align: center;
+    background-color: #6c8cd5;
+    color: white;
+    padding: 1rem;
+}
+
+/* secciones */
+section {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 0.1rem solid #6c8cd5;
+    background-color: white;
+}
+
+/* párrafos */
+p {
+    line-height: 1.4;
+}
+
+/* fechas más separadas */
+section:last-child p {
+    margin-top: 0.8rem;
+}

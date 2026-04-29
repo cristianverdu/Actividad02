@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    overflow-x: hidden;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+/* header simple */
+header {
+    background-color: #cccccc;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* secciones */
+section {
+    margin-top: 1.5rem;
+}
+
+/* títulos */
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    border-bottom: 0.1rem solid black;
+}
+
+/* lista */
+ul {
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* párrafos */
+p {
+    margin: 0.5rem 0;
+}
