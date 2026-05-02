@@ -1,0 +1,29 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    height: 4rem;
+    }
+
+body{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background: lightblue;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
