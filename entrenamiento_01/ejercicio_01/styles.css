@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 main {
@@ -63,8 +64,15 @@ li {
 
 a {
     color: blue;
+    text-decoration: none;
+
 }
 
 a:hover {
     color: red;
 }
+
+.datos{
+    display: flex;
+    flex-direction: row;
+}    

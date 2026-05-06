@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #eeeeee;
     overflow-x: hidden;
 }
@@ -15,6 +16,8 @@ main {
     min-height: 100vh;
     background-color: white;
     padding: 1.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 /* header simple */
@@ -50,4 +53,9 @@ li {
 /* párrafos */
 p {
     margin: 0.5rem 0;
+}
+
+.mapa{
+    border-radius: 45px;
+    width: 100%;
 }
