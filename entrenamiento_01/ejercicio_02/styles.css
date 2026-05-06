@@ -24,7 +24,7 @@ body{
     align-items: center;
     gap: 10px;
     margin: 40px auto;
-    
+    height: 100%;
 
 
 }
@@ -68,4 +68,26 @@ section {
     align-items: center;
     gap: 10px;
     margin: 40px auto;
+}
+
+a{
+  text-decoration: none;  
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+.receta{
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.titulo{
+    font-size: 24px;
 }

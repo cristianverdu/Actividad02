@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e8f0fe;
     overflow-x: hidden;
 }
@@ -45,9 +45,15 @@ section:last-child p {
 }
 
 .imagen{
-    position: block;
-    margin: auto;
+    display: block;
+    margin: 0 auto;
     border-radius: 15px;
-    width: 100%;
+    width: 60%;
 
+
+}
+
+.institucion{
+    display: flex;
+    flex-direction: column;
 }

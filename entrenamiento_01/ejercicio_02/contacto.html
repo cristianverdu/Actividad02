@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
@@ -12,9 +12,9 @@
         <li>
             <a href="index.html">HOME</a>
         </li>
-        <li>
+      <!--   <li>
             <a href="contacto.html">CONTACTO</a>
-        </li>
+        </li> -->
     </ul>
    </nav>
    <main>
@@ -22,23 +22,23 @@
             <form>
                <div>
                  <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre">
+                <input type="text" id="nombre" name="nombre" required>
                </div>
                <div>
                 <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido">
+                <input type="text" id="apellido" name="apellido" required>
                </div>
                <div>
                  <label for="telefono">Telefono:</label>   
-                 <input type="text" id="telefono" name="telefono">
+                 <input type="text" id="telefono" name="telefono" required>
                </div>
                <div>
                     <label for="mensaje">Mensaje:</label>
-                    <textarea name="mensaje" id="mensaje"></textarea>
+                    <textarea name="mensaje" id="mensaje"></textarea required>
                 </div>    
-               <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Cancelar">
+               <div class="botones">
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton" type="reset" value="Cancelar">
                </div>
             </form>
         </section>
